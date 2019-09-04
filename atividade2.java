@@ -11,15 +11,15 @@ public class atividade2{
 
 
     private static String Converter(String s){
-        String a="";
+        String f="";
+        int d;
         for (int i = 0; i < s.length(); ++i) {
             if (s.charAt(i) >= 'a' && s.charAt(i) <= 'z') {
-              System.out.println((int)s.charAt(i) - (int)'a');
-              
-              a =a + s;
+              d= s.charAt(i)- (int)'a';
+              f = f+" " + d;
             } 
         }
-        return a;
+        return f;
     }
     
 }
