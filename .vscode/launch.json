@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - atividade2",
+            "request": "launch",
+            "mainClass": "atividade2",
+            "projectName": "Atividades-Senac_17efac17"
+        }
+    ]
+}
